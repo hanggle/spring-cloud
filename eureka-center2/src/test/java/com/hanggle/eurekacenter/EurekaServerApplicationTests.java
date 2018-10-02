@@ -1,4 +1,4 @@
-package com.hanggle.eurekaserver;
+package com.hanggle.eurekacenter;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

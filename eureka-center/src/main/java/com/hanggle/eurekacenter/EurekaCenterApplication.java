@@ -1,4 +1,4 @@
-package com.hanggle.eurekaserver;
+package com.hanggle.eurekacenter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class EurekaServerApplication {
+public class EurekaCenterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServerApplication.class, args);
+        SpringApplication.run(EurekaCenterApplication.class, args);
     }
 }
