@@ -14,7 +14,7 @@ import java.util.List;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class EurekaClientApplication {
+public class EurekaServerApplication {
 
     @Bean
     @LoadBalanced
@@ -34,6 +34,6 @@ public class EurekaClientApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaClientApplication.class, args);
+        SpringApplication.run(EurekaServerApplication.class, args);
     }
 }
